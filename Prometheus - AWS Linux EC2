@@ -55,6 +55,7 @@ cat /etc/systemd/system/prometheus.service
 Reload the systemd daemon:
 sudo systemctl daemon-reload
 
+Sudo systemctl enable prometheus
 Start the Prometheus service:
 sudo systemctl start prometheus
 
